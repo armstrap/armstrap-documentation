@@ -1,4 +1,5 @@
 armstrap-documentation
 ======================
 
-ARMstrap Documentation
+Welcome to ARMstrap Documentation
+
