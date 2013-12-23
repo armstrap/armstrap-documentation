@@ -12,17 +12,17 @@ Download and Installation
 -------------------------
 
 1. Install Java (Java SE 6 or greater is recommended), which you can download at http://www.java.com/getjava.
-2. Download Eclipse IDE for C/C++ Developers from http://www.eclipse.org/downloads
-3. Download GNU Tools for ARM Embedded Processors from https://launchpad.net/gcc-arm-embedded
-4. Download ARMstrap blinky examples from https://s3.amazonaws.com/armstrap-public/examples/armstrap_blinkyexamples_1.0.0.zip
+2. Download "Eclipse IDE for C/C++ Developers" from http://www.eclipse.org/downloads
+3. Download "GNU Tools for ARM Embedded Processors" from https://launchpad.net/gcc-arm-embedded
+4. Download "ARMstrap blinky examples" from https://s3.amazonaws.com/armstrap-public/examples/armstrap_blinkyexamples_1.0.0.zip
 
 Consolidate all Downloaded Parts into a Single Folder
 -----------------------------------------------------
 
 1. Create a folder on your Desktop called *armstrap*
-2. Extract your downloaded Eclipse IDE for C/C++ Developers into *<user>/Desktop/armstrap/eclipse*
-3. Extract your downloaded GNU Tools for ARM Embedded Processors into *<user>/Desktop/armstrap/gcc-arm*
-4. Extract your downloaded ARMstrap blinky examples into *<user>/Desktop/armstrap/workspace*
+2. Extract your downloaded "Eclipse IDE for C/C++ Developers" into *<user>/Desktop/armstrap/eclipse*
+3. Extract your downloaded "GNU Tools for ARM Embedded Processors" into *<user>/Desktop/armstrap/gcc-arm*
+4. Extract your downloaded "ARMstrap blinky examples" into *<user>/Desktop/armstrap/workspace*
 
 Configuring C/C++ Development Tools for ARMstrap boards, Eclipse Edition, for First Use
 ---------------------------------------------------------------------------------------
@@ -34,6 +34,7 @@ Complete the following steps to configure C/C++ Development Tools for ARMstrap b
 
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-Workspace.png
        :align: center
+
     .. Tip:: Enable **Use this as the default and do not ask again** to save a project folder as your default workspace.
 
 3. In the Eclipse welcome screen, select the **Workbench** icon on the far right to open the workbench view.
@@ -46,17 +47,17 @@ Complete the following steps to configure C/C++ Development Tools for ARMstrap b
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-Perpective.png
        :align: center
 
-5. Debugging ARMstrap requires the C/C++ GDB Hardware Debugging plugin.  To install the plugin, select the **Help>>Install New Software...** menu item
+5. Debugging ARMstrap requires the "C/C++ GDB Hardware Debugging" plugin.  To install the plugin, select the **Help>>Install New Software...** menu item
 
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-Install-New-Software.png
        :align: center
 
 6. Configure the plugin installation
 
-   * In the **Work with:** drop-down, select the version of Eclipse you downloaded (for example Kepler).  As seen in label mark 1 in picture.
-   * In the search field, type Hardware as seen in label mark 2 in picture
+   * In the **Work with:** drop-down, select the version of Eclipse you downloaded (for example "Kepler").  As seen in label mark 1 in picture.
+   * In the search field, type *Hardware* as seen in label mark 2 in picture.
    * Click the check-box to select the **C/C++ GDB Hardware Debugging** plugin as seen in label mark 3 in picture.
-   * Click the **Next** button, as seen in label mark 4 in picture and accept the licensing agreement to complete the installation
+   * Click the **Next** button, as seen in label mark 4 in picture and accept the licensing agreement to complete the installation.
    * You will need to restart Eclipse when the plugin installation is complete.
    
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-Install-New-Software-Screen.png
@@ -65,7 +66,7 @@ Complete the following steps to configure C/C++ Development Tools for ARMstrap b
 Creating a C/C++ Project
 ------------------------
 
-Complete the following steps to create a C or C++ project in C/C++ Development Tools for ARMstrap boards, Eclipse Edition
+Complete the following steps to create a C or C++ project in C/C++ Development Tools for ARMstrap boards
 
 1. Switch to the C/C++ perspective.
 2. Select **File>>New>>C Project** to open the New Project Wizard.
@@ -75,7 +76,7 @@ Complete the following steps to create a C or C++ project in C/C++ Development T
 
 3. Configure the C Project
 
-   * Give the project the name blinky, as seen in label mark 1 in picture.
+   * Give the project the name *blinky*, as seen in label mark 1 in picture.
    * Under **Project Type**, select the **Empty Project** option, as seen in label mark 2 in picture.
    * Under **Toolchains**, select **Cross GCC** option, as seen in label mark 3 in picture.
    
@@ -269,7 +270,7 @@ Before you can run the ELF executable you created in the previous section on you
         monitor vector_catch disable hard
         set mem inaccessible-by-default off
         set print pretty
-                
+
    * Check **Load image** option and **Use project binary**
    * Check **Load symbols** option and **User project binary**
    
