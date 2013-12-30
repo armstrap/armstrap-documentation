@@ -51,7 +51,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'ARMstrap Documentation'
-copyright = u'2013, Charles ARMstrap'
+copyright = u'2013, Charles Armstrap'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -200,7 +200,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'armstrap-documentation.tex', u'ARMstrap Documentation',
-   u'Charles ARMstrap', 'manual'),
+   u'Charles Armstrap', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -230,7 +230,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'armstrap-documentation', u'ARMstrap Documentation',
-     [u'Charles ARMstrap'], 1)
+     [u'Charles Armstrap'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -244,7 +244,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'armstrap-documentation', u'ARMstrap Documentation',
-   u'Charles ARMstrap', 'armstrap-documentation', 'ARMstrap Documentation.',
+   u'Charles Armstrap', 'armstrap-documentation', 'ARMstrap Documentation.',
    'Miscellaneous'),
 ]
 
@@ -262,9 +262,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'armstrap-documentation'
-epub_author = u'Charles ARMstrap'
-epub_publisher = u'Charles ARMstrap'
-epub_copyright = u'2013, Charles ARMstrap'
+epub_author = u'Charles Armstrap'
+epub_publisher = u'Charles Armstrap'
+epub_copyright = u'2013, Charles Armstrap'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
