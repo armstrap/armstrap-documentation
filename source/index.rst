@@ -7,6 +7,7 @@ Contents:
    :maxdepth: 3
 
    introduction
+   hardware-overview
    getting-started-eclipse-development-tools
    file-versioning
 
