@@ -18,7 +18,7 @@ Requires (sold separately):
 
 - Mini-USB Cable for flashing and debugging the ARMstrap target
 - CR1216 battery for realtime clock backup
-- Through-hole GPIO headers soldering
+- GPIO through-hole header soldering
 - A Microsoft Windows, Apple Mac or Ubuntu Linux computer to flash/debug the ARMstrap target
 
 Features:
