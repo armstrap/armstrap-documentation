@@ -65,33 +65,33 @@ Remarks
 Workflow Example
 ----------------
 
-The ARMstrap OX Board::
+The ARMstrap Eagle Board::
 
-   armstrap_ox_1.0.0.brd
+   armstrap_eagle_1.0.0.brd
    
-.. Note:: armstrap-org_ox_1.0.0.brd is also acceptible
+.. Note:: armstrap-org_eagle_1.0.0.brd is also acceptible
 
 The company "VOV Technology" forks the board, keeps armstrap branding but adds its own company logo::
    
-   vovtech_armstrap-ox_1.0.0.brd
+   vovtech_armstrap-eagle_1.0.0.brd
    
-.. Note:: vovtech-com_armstrap-ox_1.0.0.brd is also acceptible
+.. Note:: vovtech-com_armstrap-eagle_1.0.0.brd is also acceptible
 
 The company "VOV Technology" later changes changes a chip on the board but maintains the same board size and interface::
 
-    vovtech_armstrap-ox_1.1.0.brd
+    vovtech_armstrap-eagle_1.1.0.brd
    
 The company "VOV Technology" later discovers a silkscreen naming problem and makes a minor change to the silkscreen layer::
 
-   vovtech_armstrap-ox_1.1.1.brd
+   vovtech_armstrap-eagle_1.1.1.brd
 
 The ARMstrap community intergrates VOV's changes, removed the VOV branding::
 
-   armstrap_ox_1.1.0.brd
+   armstrap_eagle_1.1.0.brd
 
-Community member 'John Smith' forks the ARMstrap OX board into his own source code repository::
+Community member 'John Smith' forks the ARMstrap Eagle board into his own source code repository::
 
-   john-smith_armstrap-ox_1.1.0.brd
+   john-smith_armstrap-eagle_1.1.0.brd
 
 
 Naming Examples
