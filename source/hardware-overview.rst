@@ -44,14 +44,14 @@ ARMstrap Eagle 512 Features
 
 - 168 MHz STM32F407VET6 Cortex-M4 Microcontroller
 - 512 KB on-chip flash
-- 192 KB - 256 KB RAM
+- 192 KB RAM
 - 2 MB SPI flash
 
 ARMstrap Eagle 1024 Features
 
 - 168 MHz STM32F417VGT6 Cortex-M4 Microcontroller
 - 1024 KB on-chip flash
-- 192 KB - 256 KB RAM
+- 192 KB RAM
 - 4 MB SPI flash
 
 ARMstrap Eagle 2048 Features
