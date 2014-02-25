@@ -12,27 +12,19 @@ ARMstrap Eagle
 
 Shipment Includes: 
 
-- One ARMstrap Eagle Printed Circuit Board (PCB)
+- One ARMstrap Eagle Board
 
-Requires (sold separately):
-
-- Mini-USB Cable for flashing and debugging the onboard ARM chip
-- CR1216 battery for realtime clock backup
-- FTDI TTL Serial Cable for serial console access (TTL-232R-3V3)
-- GPIO through-hole header soldering
-- A Microsoft Windows, Apple Mac or Ubuntu Linux computer for project development
-
-Standard Features:
+Standard Features
 
 - 168 MHz STM32F4 Cortex-M4 Microcontroller
 - 512 KB - 2048 KB on-chip flash
 - 192 KB - 256 KB RAM
 - 2 MB - 8 MB SPI flash
 - 35 digital input/output pins
-- Ready-to-use realtime clock with backup battery (battery sold separately)
+- Ready-to-use realtime clock with backup battery
 - On-board JTAG controller for easy flashing and debugging (with no codesize limitations)
 - Debug over Standard USB cable
-- Serial Console using FTDI 3v3 cable (cable sold seperately)
+- Serial Console for runtime communication and diagnotics
 - Flexible development options (develop with one version and deploy with another)
 - Reset and Device Firmware Upgrade button
 - User-programmable LED and button
@@ -60,3 +52,11 @@ ARMstrap Eagle 2048 Features
 - 2048 KB on-chip flash
 - 256 KB RAM
 - 8 MB SPI flash
+
+Requires (sold separately):
+
+- Mini-USB Cable for flashing and debugging the onboard ARM chip
+- CR1216 battery for realtime clock backup
+- FTDI TTL Serial Cable for serial console access (TTL-232R-3V3)
+- GPIO through-hole header soldering
+- A Microsoft Windows, Apple Mac or Ubuntu Linux computer for project development
