@@ -10,6 +10,9 @@ ARMstrap Eagle
  .. image:: images/hardware-overview/armstrap-eagle-connector-overview.png
          :width: 100% 
 
+ .. image:: images/hardware-overview/armstrap-eagle-pinout-lean.png
+         :width: 100% 
+
 Shipment Includes: 
 
 - One ARMstrap Eagle Board
