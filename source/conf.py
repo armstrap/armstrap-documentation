@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'ARMstrap Documentation'
+project = u'Armstrap Documentation'
 copyright = u'2013, Charles Armstrap'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -199,7 +199,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'armstrap-documentation.tex', u'ARMstrap Documentation',
+  ('index', 'armstrap-documentation.tex', u'Armstrap Documentation',
    u'Charles Armstrap', 'manual'),
 ]
 
@@ -229,7 +229,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'armstrap-documentation', u'ARMstrap Documentation',
+    ('index', 'armstrap-documentation', u'Armstrap Documentation',
      [u'Charles Armstrap'], 1)
 ]
 
@@ -243,8 +243,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'armstrap-documentation', u'ARMstrap Documentation',
-   u'Charles Armstrap', 'armstrap-documentation', 'ARMstrap Documentation.',
+  ('index', 'armstrap-documentation', u'Armstrap Documentation',
+   u'Charles Armstrap', 'armstrap-documentation', 'Armstrap Documentation.',
    'Miscellaneous'),
 ]
 

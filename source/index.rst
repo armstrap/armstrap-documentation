@@ -1,4 +1,4 @@
-Welcome to ARMstrap Documentation
+Welcome to Armstrap Documentation
 ===========================================
 
 Contents:

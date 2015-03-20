@@ -1,7 +1,7 @@
 Hardware Overview
 =================
 
-ARMstrap Eagle
+Armstrap Eagle
 --------------
 
  .. image:: images/hardware-overview/armstrap-eagle-smt-overview.png
@@ -15,7 +15,7 @@ ARMstrap Eagle
 
 Shipment Includes: 
 
-- One ARMstrap Eagle Board
+- One Armstrap Eagle Board
 
 Standard Features
 
@@ -35,21 +35,21 @@ Standard Features
 - Flexible development options (develop with one version and deploy with another)
 - Schematics and board layout file are open source (via MIT License) allowing you to build and remix the board, either personally or commercially.
 
-ARMstrap Eagle 512 Features
+Armstrap Eagle 512 Features
 
 - 168MHz STM32F407VET6 Cortex-M4 Microcontroller
 - 512KB on-chip flash
 - 192KB RAM
 - 2MB SPI flash
 
-ARMstrap Eagle 1024 Features
+Armstrap Eagle 1024 Features
 
 - 168MHz STM32F417VGT6 Cortex-M4 Microcontroller
 - 1024KB on-chip flash
 - 192KB RAM
 - 4MB SPI flash
 
-ARMstrap Eagle 2048 Features
+Armstrap Eagle 2048 Features
 
 - 168MHz STM32F427VIT6 Cortex-M4 Microcontroller
 - 2048KB on-chip flash

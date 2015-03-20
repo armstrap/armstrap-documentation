@@ -1,10 +1,10 @@
-Getting Started with C/C++ Development Tools for ARMstrap Boards, Eclipse Edition
+Getting Started with C/C++ Development Tools for Armstrap Boards, Eclipse Edition
 =================================================================================
 
 Overview
 --------
 
-This guide outlines how to create C/C++ projects using the C/C++ Development Tools for ARMstrap boards using Eclipse, build an ELF executable from your project source code, run and debug the executable on your ARMstrap target.
+This guide outlines how to create C/C++ projects using the C/C++ Development Tools for Armstrap boards using Eclipse, build an ELF executable from your project source code, run and debug the executable on your Armstrap target.
 
 While this specific document shows screenshots for Apple Mac OSX, the steps are verified to work on both Microsoft Windows and Ubuntu Linux machines as well.
 
@@ -14,7 +14,7 @@ Download and Installation
 1. Install Java (Java SE 6 or greater is recommended), which you can download at http://www.java.com/getjava.
 2. Download "Eclipse IDE for C/C++ Developers" from http://www.eclipse.org/downloads
 3. Download "GNU Tools for ARM Embedded Processors" from https://launchpad.net/gcc-arm-embedded
-4. Download "ARMstrap blinky examples" from https://s3.amazonaws.com/armstrap-public/examples/armstrap_blinkyexamples_1.0.0.zip
+4. Download "Armstrap blinky examples" from https://s3.amazonaws.com/armstrap-public/examples/armstrap_blinkyexamples_1.0.0.zip
 
 Consolidate all Downloaded Parts into a Single Folder
 -----------------------------------------------------
@@ -22,12 +22,12 @@ Consolidate all Downloaded Parts into a Single Folder
 1. Create a folder on your Desktop called *armstrap*
 2. Extract your downloaded "Eclipse IDE for C/C++ Developers" into *<user>/Desktop/armstrap/eclipse*
 3. Extract your downloaded "GNU Tools for ARM Embedded Processors" into *<user>/Desktop/armstrap/gcc-arm*
-4. Extract your downloaded "ARMstrap blinky examples" into *<user>/Desktop/armstrap/workspace*
+4. Extract your downloaded "Armstrap blinky examples" into *<user>/Desktop/armstrap/workspace*
 
-Configuring C/C++ Development Tools for ARMstrap boards, Eclipse Edition, for First Use
+Configuring C/C++ Development Tools for Armstrap boards, Eclipse Edition, for First Use
 ---------------------------------------------------------------------------------------
 
-Complete the following steps to configure C/C++ Development Tools for ARMstrap boards, Eclipse Edition, for first use:
+Complete the following steps to configure C/C++ Development Tools for Armstrap boards, Eclipse Edition, for first use:
 
 1. Launch Eclipse by clicking on the *<user>/Desktop/armstrap/eclipse/eclipse* executable
 2. When prompted, select the *<user>/Desktop/armstrap/workspace* folder in which to store Eclipse projects and click **OK**.
@@ -47,7 +47,7 @@ Complete the following steps to configure C/C++ Development Tools for ARMstrap b
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-Perpective.png
        :align: center
 
-5. Debugging ARMstrap requires the "C/C++ GDB Hardware Debugging" plugin.  To install the plugin, select the **Help>>Install New Software...** menu item
+5. Debugging Armstrap requires the "C/C++ GDB Hardware Debugging" plugin.  To install the plugin, select the **Help>>Install New Software...** menu item
 
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-Install-New-Software.png
        :align: center
@@ -66,7 +66,7 @@ Complete the following steps to configure C/C++ Development Tools for ARMstrap b
 Creating a C/C++ Project
 ------------------------
 
-Complete the following steps to create a C or C++ project in C/C++ Development Tools for ARMstrap boards
+Complete the following steps to create a C or C++ project in C/C++ Development Tools for Armstrap boards
 
 1. Switch to the C/C++ perspective.
 2. Select **File>>New>>C Project** to open the New Project Wizard.
@@ -90,7 +90,7 @@ Complete the following steps to create a C or C++ project in C/C++ Development T
        :align: center
 
 6. Click **Next** to open the **Cross GCC Command** page.
-7. In the **Cross compiler prefix** text box, enter *arm-none-eabi-*, including the hyphen (-) at the end, to specify the correct compiler for ARMstrap targets.
+7. In the **Cross compiler prefix** text box, enter *arm-none-eabi-*, including the hyphen (-) at the end, to specify the correct compiler for Armstrap targets.
 8. In the Cross compiler path text box, browse to the location of the *<user>/Desktop/armstrap/gcc-arm/bin* directory to specify the location of the compiler.
 
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-New-Project-Wizard3.png
@@ -200,12 +200,12 @@ Before you can run your project, you need to test that your source code compiles
 
 14. The Console tab displays Build Finished if the build completes successfully, as shown in the following image.
 
-In the next section of this tutorial, you prepare to run and debug the ELF executable on your ARMstrap target.
+In the next section of this tutorial, you prepare to run and debug the ELF executable on your Armstrap target.
 
 Downloading and Debugging Code
 ------------------------------
 
-Before you can run the ELF executable you created in the previous section on your ARMstrap target, you need to create a Debug Configuration.
+Before you can run the ELF executable you created in the previous section on your Armstrap target, you need to create a Debug Configuration.
 
 1. In the C/C++ perspective, select the **Debug Configurations...** in the debug drop-down
 
@@ -288,7 +288,7 @@ Before you can run the ELF executable you created in the previous section on you
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-Debugging-8.png
        :align: center
 
-10. Click the debug toolbar and select your debug configuration to start flashing and debugging your ARMstrap board.
+10. Click the debug toolbar and select your debug configuration to start flashing and debugging your Armstrap board.
 
     .. image:: images/getting-started-eclipse-development-tools/Eclipse-Debugging-10.png
        :align: center

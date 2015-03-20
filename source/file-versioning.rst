@@ -1,4 +1,4 @@
-ARMstrap Naming and Versioning Convension
+Armstrap Naming and Versioning Convension
 =========================================
 
 Format
@@ -65,7 +65,7 @@ Remarks
 Workflow Example
 ----------------
 
-The ARMstrap Eagle Board::
+The Armstrap Eagle Board::
 
    armstrap_eagle_1.0.0.brd
    
@@ -85,11 +85,11 @@ The company "VOV Technology" later discovers a silkscreen naming problem and mak
 
    vovtech_armstrap-eagle_1.1.1.brd
 
-The ARMstrap community intergrates VOV's changes, removed the VOV branding::
+The Armstrap community intergrates VOV's changes, removed the VOV branding::
 
    armstrap_eagle_1.1.0.brd
 
-Community member 'John Smith' forks the ARMstrap Eagle board into his own source code repository::
+Community member 'John Smith' forks the Armstrap Eagle board into his own source code repository::
 
    john-smith_armstrap-eagle_1.1.0.brd
 
