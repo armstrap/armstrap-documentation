@@ -37,21 +37,21 @@ Standard Features
 
 Armstrap Eagle 512 Features
 
-- 168MHz STM32F407VET6 Cortex-M4 Microcontroller
+- 168MHz `STM32F407VET6 <http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf>`_ Cortex-M4 Microcontroller
 - 512KB on-chip flash
 - 192KB RAM
 - 2MB SPI flash
 
 Armstrap Eagle 1024 Features
 
-- 168MHz STM32F417VGT6 Cortex-M4 Microcontroller
+- 168MHz `STM32F417VGT6 <http://www.st.com/web/en/resource/technical/document/datasheet/DM00035129.pdf>`_ Cortex-M4 Microcontroller
 - 1024KB on-chip flash
 - 192KB RAM
 - 4MB SPI flash
 
 Armstrap Eagle 2048 Features
 
-- 168MHz STM32F427VIT6 Cortex-M4 Microcontroller
+- 168MHz `STM32F427VIT6 <http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00071990.pdf>`_ Cortex-M4 Microcontroller
 - 2048KB on-chip flash
 - 256KB RAM
 - 8MB SPI flash
